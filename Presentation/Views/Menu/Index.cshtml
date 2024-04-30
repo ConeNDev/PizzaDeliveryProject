@@ -1,0 +1,48 @@
+﻿@model List<Pizza>
+
+@{
+	ViewData["Title"] = "Menu";
+}
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12">
+			@Html.Partial("_SearchBar")
+		</div>
+	</div>
+	<div class="row">	
+		<div class="col-12">
+			<div class="mb-3">
+				<h4 class=text-dark>Pizza</h4>
+				<div class="row" id="pizzaMenu">
+					@if (Model != null)
+					{
+						foreach (var pizza in Model)
+						{
+							<div class="col-lg-3 col-md-4 col-sm-6">
+								<div class="shadow rounded card dishCard p-2">
+									<img src="@pizza.Image_Url" class="card-img-top h-50" alt="@pizza.Title">
+									<div class="card-body">
+										<h5 class="card-title text-dark">@(pizza.Title?.Length >= 20
+											? pizza.Title.Substring(0,19) + "..." : pizza.Title)</h5>
+										<p class="card-text">@pizza.Publisher</p>
+										<div class="d-flex flex-wrap justify-content-between">
+											<a href="Menu/Order?id=@pizza.Id"
+											   class="btn btn-sm bg-black text-white shadow rounded p-2">
+												Order
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						}
+					}
+					else
+					{
+						<p>No pizzas found.</p>
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

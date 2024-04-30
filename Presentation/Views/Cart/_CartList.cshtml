@@ -1,0 +1,19 @@
+﻿@model IEnumerable<PizzaApp.Domain.Entities.Order>
+
+@foreach (var order in Model)
+{
+    <div class="border-bottom p-2 d-flex">
+        <img src="@order.ImageUrl" class="cartListImg" />
+        <div class="ms-2">
+            <a class="fw-bold text-dark text-decoration-none"
+               href="/Menu/Order?id=@order.PizzaId">@(order.PizzaName?.Length >= 20 ? order.PizzaName.Substring(0, 19) + "..." : order.PizzaName)</a>
+            <p>Quantity: @order.Quantity</p>
+            <p>Price: @order.Price</p>
+            <p>Total: @order.TotalAmount</p>
+        </div>
+    </div>
+}
+<div class="text-center bg-black p-1">
+    <a href="/Cart/Index" class="text-white fs-5 text-decoration-none">Checkout</a>
+</div>
+

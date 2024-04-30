@@ -1,0 +1,20 @@
+﻿@model IEnumerable<PizzaApp.Domain.Entities.Pizza>
+
+@foreach (var pizza in Model)
+{
+	<div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+		<div class="shadow rounded p-2 ">
+			<div class="card dishCard pb-5">
+				<img src="@pizza.Image_Url" class="card-img-top h-75" />
+				<div class="card-bodyy">
+					<p class="card-title fw-bold fs-6 text-dark p-2 ">
+						@(pizza.Title?.Length >= 31 ? pizza.Title.Substring(0, 30) + "..." : pizza.Title)</p>
+					<div class="d-flex flex-wrap justify-content-between p-2">
+						<a href="Menu/Order?id=@pizza.Id"
+						   class="btn btn-sm bg-black text-white shadow rounded p-2 ">Order</a>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</div>
+}	

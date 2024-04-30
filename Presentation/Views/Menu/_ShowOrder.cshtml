@@ -1,0 +1,71 @@
+﻿@model PizzaApp.Domain.Entities.OrderedPizza
+
+<div class="container-fluid shadow rounded">
+	<div class="row">
+		<div class="col-md-6">
+			<img src="@Model.Image_Url" class="w-100" id="order-img" />
+		</div>
+		<div class="col-md-6">
+			<div class="row mt-2">
+				<div class="col-12">
+					<h2 class="text-dark">@Model.Title</h2>
+				</div>
+				<div class="col-12">
+					<form autocomplete="off" id="orderForm">	
+						@* skrivena input polja pomocu kojih dohvatam podatke *@
+						<input type="hidden" value="@Model.Id" name="PizzaId"/>
+						<input type="hidden" value="@Model.Title" name="PizzaName"/>
+						<input type="hidden" value="@ViewBag.UserId" name="UserId"/>
+						<input type="hidden" id="image-url" value="@Model.Image_Url" name="ImageUrl" />
+						<div class="p-2">
+							<h4 class="text-dark">Bill Details</h4>
+							<div class="row border-bottom text-muted">
+								<label class="col-10 col-form-label">Price</label>
+								<div class="col-2 d-flex align-items-center justify-content-end">
+									<i class="fa-solid fa-euro-sign"></i>
+									<input id="price" type="text" value="@ViewBag.Price" name="Price"
+									readonly  />
+								</div>
+							</div>
+							<div id="qtySection" class="row border-bottom">
+								<label class="col-9 col-form-label text-muted">Quantity</label>
+								<div class="col-3 border border-success border-2 p-1 text-center rounded">
+									<span onclick="quantity('inc')"><i class="fa-solid fa-plus text-success"></i></span>
+									<input type="text" id="qty" class="bg-white text-center text-success fw-bold" 
+									value=1 name="Quantity" readonly />
+									<span onclick="quantity('dec')"><i class="fa-solid fa-minus text-success"></i></span>
+								</div>
+							</div>
+							<div class="row border-bottom">
+								<label class="col-10 col-form-label text-muted">Delivery Charge</label>
+								<label class="col-2 col-form-label text-success fw-bold">Free</label>
+							</div>
+							<div class="row border-bottom  ">
+								<label class="form-label text-muted">Delivery Address</label>
+								<input type="text" class="form-control" name="Address"
+									   value="@ViewBag.Address" />
+								@Html.ValidationMessage("Address")
+							</div>
+							<div class="row">
+								<label class="col-10 col-form-label fs-5 fw-bold">Total</label>
+								<label class="col-2 col-form-label text-success fw-bold 
+									d-flex align-items-center justify-content-end">
+									<i class="fa-solid fa-euro-sign"></i>
+									<input id="totalAmount" type="text" name="TotalAmount" readonly value="@ViewBag.Price"/>
+								</label>
+							</div>
+							<div class="col-12 text-start">
+								<button type="button" onclick="addToCart()"
+									class="btn btn-sm btn-success shadow-rounded  mt-2 mb-3 p-2 w-100 float-end">Add To Cart</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	// globalna js promenljiva koja odredjuje da li sam ulogovan
+	var isUserAuthenticated = @User.Identity.IsAuthenticated.ToString().ToLower();
+</script>

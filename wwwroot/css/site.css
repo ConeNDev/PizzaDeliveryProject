@@ -1,0 +1,106 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+.text-yellow{
+    color:#ffd800 !important;
+}
+#carouselExampleSlidesOnly {
+    height: 400px;
+}
+footer {
+    background-color: #ffd800;
+}
+header{
+    z-index: 1000;
+}
+.dishCard{
+    height:270px;
+}
+#order-img{
+    height:300px;
+}
+.validation-summary-errors li{
+    color:#dc3545;
+}
+#qty{
+    width:50px;
+    border:none
+}
+#qty:focus{
+    outline:none;
+}
+#qtySection{
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.fa-plus, .fa-minus{
+    cursor:pointer;
+}
+#totalAmount, #price{
+    width:60px;
+    border:none;
+}
+#totalAmount:focus, #price:focus{
+    outline:none;
+}
+
+.addToCartIcon{
+    cursor:pointer;
+}
+.bg-black{
+    background-color:#0d243d;
+}
+#showCartList{
+    display:none;
+    right:20px ;
+    width:350px;
+}
+
+/*ovo ispod koristi sibling i ovaj css je primenjen na onim u htmlu gde se nalaze na istom nivou
+    gde je prvi id="cartListIcon" a drugi odma ispod njega id="showCartList"
+*/
+#cartListIcon:hover ~#showCartList{
+    display:block;
+}
+.cartListImg{
+    width:120px;
+    height:80px;
+}
+
+#showCartList:hover {
+    display:block;
+}
+
+.cartImage{
+    width:180px;
+    height:100px;
+}
+
+.cartTitle{
+    width:500px;
+}
+.emptyCart{
+    font-size:300px;
+}
+.removeCartBTN{
+    cursor:pointer;
+}
+
+.logo-dimensions{
+    height:50px;
+}
+
