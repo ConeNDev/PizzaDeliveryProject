@@ -16,66 +16,66 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\xMx\source\repos\PizzaApp\PizzaApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXEFjY291bnRcTG9naW4uY3NodG1s
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXEFjY291bnRcUmVnaXN0ZXIuY3NodG1s
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Cart/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXENhcnRcSW5kZXguY3NodG1s
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Cart/_CartList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXENhcnRcX0NhcnRMaXN0LmNzaHRtbA==
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Cart/_CartList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxfQ2FydExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Menu/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXE1lbnVcSW5kZXguY3NodG1s
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Menu/Order.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXE1lbnVcT3JkZXIuY3NodG1s
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Menu/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxPcmRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Menu/_MenuCard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXE1lbnVcX01lbnVDYXJkLmNzaHRtbA==
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Menu/_MenuCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxfTWVudUNhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Menu/_SearchBar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXE1lbnVcX1NlYXJjaEJhci5jc2h0bWw=
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Menu/_SearchBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxfU2VhcmNoQmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Menu/_ShowOrder.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXE1lbnVcX1Nob3dPcmRlci5jc2h0bWw=
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Menu/_ShowOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxfU2hvd09yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Presentation/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-33vq95cqks
+[C:/Users/xMx/source/repos/PizzaApp/PizzaApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-esrhztwmlc

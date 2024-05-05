@@ -1,46 +1,46 @@
-/* _content/PizzaApp/Presentation/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* _content/PizzaApp/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-33vq95cqks] {
+a.navbar-brand[b-esrhztwmlc] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
-a[b-33vq95cqks] {
+a[b-esrhztwmlc] {
   color: #0077cc;
 }
 
-.btn-primary[b-33vq95cqks] {
+.btn-primary[b-esrhztwmlc] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-33vq95cqks], .nav-pills .show > .nav-link[b-33vq95cqks] {
+.nav-pills .nav-link.active[b-esrhztwmlc], .nav-pills .show > .nav-link[b-esrhztwmlc] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top[b-33vq95cqks] {
+.border-top[b-esrhztwmlc] {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom[b-33vq95cqks] {
+.border-bottom[b-esrhztwmlc] {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow[b-33vq95cqks] {
+.box-shadow[b-esrhztwmlc] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy[b-33vq95cqks] {
+button.accept-policy[b-esrhztwmlc] {
   font-size: 1rem;
   line-height: inherit;
 }
 
-.footer[b-33vq95cqks] {
+.footer[b-esrhztwmlc] {
   position: absolute;
   bottom: 0;
   width: 100%;
