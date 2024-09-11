@@ -3,11 +3,15 @@ using Microsoft.EntityFrameworkCore;
 using PizzaApp.Infrastructure.Persistence;
 using PizzaApp.Domain.Entities;
 using PizzaApp.Infrastructure.Repository;
+using PizzaApp.Presentation.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 var dbconnection = builder.Configuration.GetConnectionString("dbConnection");
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorOptions(options =>
+{
+    options.ViewLocationExpanders.Add(new CustomViewLocationExpander());
+});
 builder.Services.AddDbContext<PizzaAppDBContext>(options => options.UseSqlServer(dbconnection));
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<PizzaAppDBContext>();
